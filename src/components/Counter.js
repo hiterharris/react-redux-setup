@@ -36,7 +36,8 @@ export default class Counter extends Component {
         // 1
         return (
             <div className="app">
-                <h1>Hello world!!</h1>
+                <h1>Counter</h1>
+                <p>View the console to see the counter</p>
             </div>
         );
     }
