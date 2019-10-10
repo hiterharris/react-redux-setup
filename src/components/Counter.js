@@ -6,7 +6,7 @@ import { createStore } from 'redux';
 // It describes how an action transforms the state into the next state.
 
 // In this example, we use a `switch` statement and strings
-function counter(state=0, action) {
+function counter(state = 0, action) {
     switch(action.type) {
         case 'INCREMENT':
             return state + 1
